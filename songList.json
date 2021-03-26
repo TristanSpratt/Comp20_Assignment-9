@@ -1,75 +1,74 @@
-{
-	"setlist": [
-		{
-			"title": "Faith",
-			"artist": "The Weeknd",
-			"release": "2020",
-			"genre": ["pop"]
-		},
-		{
-			"title": "Scared To Live",
-			"artist": "The Weeknd",
-			"release": "2020",
-			"genre": ["pop"]
-		},
-		{
-			"title": "Save Your Tears",
-			"artist": "The Weeknd",
-			"release": "2020",
-			"genre": ["pop"]
-		},
-		{
-			"title": "Menteur menteuse",
-			"artist": "Disiz La Peste",
-			"release": "2017",
-			"genre": ["Hip Hop"]
-		},
-		{
-			"title": "Quand je serai chaos",
-			"artist": "Disiz La Peste",
-			"release": "2017",
-			"genre": ["Hip Hop"]
-		},
-		{
-			"title": "Splash",
-			"artist": "Disiz La Peste",
-			"release": "2017",
-			"genre": ["Hip Hop"]
-		},
-		{
-			"title": "Lucy In The Sky With Diamonds",
-			"artist": "The Beatles",
-			"release": "1967",
-			"genre": ["rock"]
-		},
-		{
-			"title": "When I'm Sixty Four",
-			"artist": "The Beatles",
-			"release": "1967",
-			"genre": ["rock"]
-		},{
-			"title": "A Day In The Life",
-			"artist": "The Beatles",
-			"release": "1967",
-			"genre": ["rock"]
-		},
-		{
-			"title": "Sir Duke",
-			"artist": "Stevie Wonder",
-			"release": "1976",
-			"genre": ["soul", "R&B"]
-		},
-		{
-			"title": "Isn't She Lovely",
-			"artist": "Stevie Wonder",
-			"release": "1976",
-			"genre": ["soul", "R&B"]
-		},
-		{
-			"title": "Ebony Eyes",
-			"artist": "Stevie Wonder",
-			"release": "1976",
-			"genre": ["soul", "R&B"]
-		}
-	]
-}
+[
+	{
+		"title": "Faith",
+		"artist": "The Weeknd",
+		"release": "2020",
+		"genre": ["pop"]
+	},
+	{
+		"title": "Scared To Live",
+		"artist": "The Weeknd",
+		"release": "2020",
+		"genre": ["pop"]
+	},
+	{
+		"title": "Save Your Tears",
+		"artist": "The Weeknd",
+		"release": "2020",
+		"genre": ["pop"]
+	},
+	{
+		"title": "Menteur menteuse",
+		"artist": "Disiz La Peste",
+		"release": "2017",
+		"genre": ["Hip Hop"]
+	},
+	{
+		"title": "Quand je serai chaos",
+		"artist": "Disiz La Peste",
+		"release": "2017",
+		"genre": ["Hip Hop"]
+	},
+	{
+		"title": "Splash",
+		"artist": "Disiz La Peste",
+		"release": "2017",
+		"genre": ["Hip Hop"]
+	},
+	{
+		"title": "Lucy In The Sky With Diamonds",
+		"artist": "The Beatles",
+		"release": "1967",
+		"genre": ["rock"]
+	},
+	{
+		"title": "When I'm Sixty Four",
+		"artist": "The Beatles",
+		"release": "1967",
+		"genre": ["rock"]
+	},
+	{
+		"title": "A Day In The Life",
+		"artist": "The Beatles",
+		"release": "1967",
+		"genre": ["rock"]
+	},
+	{
+		"title": "Sir Duke",
+		"artist": "Stevie Wonder",
+		"release": "1976",
+		"genre": ["soul", "R&B"]
+	},
+	{
+		"title": "Isn't She Lovely",
+		"artist": "Stevie Wonder",
+		"release": "1976",
+		"genre": ["soul", "R&B"]
+	},
+	{
+		"title": "Ebony Eyes",
+		"artist": "Stevie Wonder",
+		"release": "1976",
+		"genre": ["soul", "R&B"]
+	}
+]
