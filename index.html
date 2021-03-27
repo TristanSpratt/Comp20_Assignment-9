@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		setlist with JSON
+	</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div id="form">
+		<form>
+			<select name="genre" id="genre">
+				<option value="display all" name="all">Display All</option>
+				<option value="pop" name="pop">Pop</option>
+				<option value="Hip Hop" name="hiphop">Hip Hop</option>
+				<option value="rock" name="rock">Rock</option>
+				<option value="soul,R&B" name="soul">Soul, R&B</option>
+			</select>
+
+			<input type = "button" value = "Submit Order" id="button" onclick="updateGenre(genre.value)"/>
+		</form>
+	</div>
+	
+	<div id="setlist">
+		<p id="setlistString"></p>
+
+		<p id="userFriendlySetlist"></p>
+	</div>
+
+	<script language="javascript">
+		$.get("https://tristanspratt.github.io/Comp20_Assignment-9/songList.json",
+			function (data) {
+				string = JSON.stringify(data);
+				document.getElementById("setlistString").innerHTML = string + "<br/>";
+
+				userFriendly = "";
+				data.forEach(function(song) {
+					userFriendly += song.title;
+					userFriendly += "<br/>";
+					userFriendly += song.artist;
+					userFriendly += "<br/>";
+					userFriendly += song.release;
+					userFriendly += "<br/>";
+					userFriendly += song.genre;
+					userFriendly += "<br/> <br/>";
+				})
+				document.getElementById("userFriendlySetlist").innerHTML = userFriendly;
+			})
+
+		function updateGenre(genre) {
+			$.get("https://tristanspratt.github.io/Comp20_Assignment-9/songList.json",
+			function (data) {
+
+				userFriendly = "";
+				if (genre == "display all"){
+					data.forEach(function(song) {
+						userFriendly += song.title;
+						userFriendly += "<br/>";
+						userFriendly += song.artist;
+						userFriendly += "<br/>";
+						userFriendly += song.release;
+						userFriendly += "<br/>";
+						userFriendly += song.genre;
+						userFriendly += "<br/> <br/>";
+					})
+				}
+				else {
+					data.forEach(function(song) {
+						if (song.genre == genre) {
+							userFriendly += song.title;
+							userFriendly += "<br/>";
+							userFriendly += song.artist;
+							userFriendly += "<br/>";
+							userFriendly += song.release;
+							userFriendly += "<br/>";
+							userFriendly += song.genre;
+							userFriendly += "<br/> <br/>";
+						}
+					})
+				}
+				document.getElementById("userFriendlySetlist").innerHTML = userFriendly;
+			})
+		}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
